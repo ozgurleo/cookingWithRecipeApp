@@ -24,6 +24,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -119,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "cookingWithRecipeApp"
+    }
+  },
+  "defaultProject": "cookingWithRecipeApp",
+  "cli": {
+    "analytics": "c54232cc-113a-44e1-a593-15c4cf9d3689"
+  }
 }
