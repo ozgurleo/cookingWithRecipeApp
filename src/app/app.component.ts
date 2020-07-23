@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  navigationFeature:string='recipe'
   title = 'cookingWithRecipeApp';
+  navigationFromHeader(sentFeature:string){
+    this.navigationFeature=sentFeature;
+    
+
+  }
 }
